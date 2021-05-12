@@ -1,0 +1,306 @@
+html, body{
+
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  background: linear-gradient(to left, #133b5c, #274046);
+}
+
+.card1{
+  background: lightgrey;
+}
+.image{
+ text-align: center;
+}
+
+h1,h2,h3{
+  font-family: 'Girassol', cursive;
+  font-family: 'Roboto Slab', serif;
+  text-align: center;
+}
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+
+}
+
+.container{
+  position: relative;
+z-index: 1;
+ border: 1px solid lightgrey;
+ align-content: center;
+ width: 300px;
+ margin: 0 auto;
+}
+.text{
+ border: 1px solid lightgrey;
+ text-align: center;
+}
+.card {
+  width: 300px;
+  margin: 0 auto;
+  color: lightgrey;
+
+}
+h1{
+  font-family: 'Roboto Slab', serif;
+  color: #d6cfcf;
+  text-align: center;
+}
+.circles {
+
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  animation: zoom 50s forwards  cubic-bezier(0.35, 0.16, 0.72, 0.71);
+}
+img{
+  text-align: center;
+  width:100px;
+  height: 100px;
+  border-radius: 50px
+}
+.sun {
+  position: absolute;
+  background: #f7ea00;
+  border-radius: 50% ;
+  width:25px;
+  height: 25px;
+  top: 50%;
+  left: 50%;
+  animation: down 2s forwards infinite linear;
+  margin: 4px 0 0;
+}
+
+
+.mercurio {
+  position: absolute;
+  background: "";
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  top: 50%;
+  left: 50%;
+  animation: down 4s forwards infinite linear;
+  margin: 4px 0 0;
+
+
+}
+
+.mercurio:before {
+  content: '';
+  background: #aaaaaa;
+  position: absolute;
+  border-radius: 100px;
+  left: 30px;
+  top: 30px;
+  width: 5px;
+  height: 5px;
+
+}
+
+.venus {
+  position: absolute;
+  background: "";
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  top: 50%;
+  left: 50%;
+  animation: down 6s forwards infinite linear;
+  margin: 4px 0 0;
+
+}
+
+.venus:before {
+  content: '';
+  background: linear-gradient(to left, #f8f5f1, #bdc7c9);
+  position: absolute;
+  border-radius: 100px;
+  left: 50px;
+  top: 50px;
+  width: 5px;
+  height: 5px;
+
+}
+
+.terra {
+  position: absolute;
+  background: "";
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  top: 50%;
+  left: 50%;
+  animation: down 8s forwards infinite linear;
+  margin: 4px 0 0;
+
+}
+
+.terra:before {
+  content: '';
+  background: #1a508b ;
+  position: absolute;
+  border-radius: 100px;
+  left: 70px;
+  top: 70px;
+  width: 5px;
+  height: 5px;
+
+}
+
+.marte {
+  position: absolute;
+  background: "";
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  top: 25%;
+  left: 25%;
+  animation: down 11s forwards infinite linear;
+  margin: 4px 0 0;
+
+}
+
+.marte:before {
+  content: '';
+  background: #ec4646 ;
+  position: absolute;
+  border-radius: 100px;
+  left: 100px;
+  top: 100px;
+  width: 5px;
+  height: 5px;
+
+}
+
+.jupiter {
+  position: absolute;
+  background: "";
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  top: 25%;
+  left: 25%;
+  animation: down 15s forwards infinite linear;
+  margin: 4px 0 0;
+
+}
+
+.jupiter:before {
+  content: '';
+  background: linear-gradient(to left, #ff8303, #fbeeac);
+  position: absolute;
+  border-radius: 100px;
+  left: 120px;
+  top: 120px;
+  width: 5px;
+  height: 5px;
+
+}
+
+.saturno {
+  position: absolute;
+  background: "";
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  top: 25%;
+  left: 25%;
+  animation: down 19s forwards infinite linear;
+  margin: 4px 0 0;
+
+}
+
+.saturno:before {
+  content: '';
+  background: linear-gradient(to left, #ffcc29, #f58634);
+  position: absolute;
+  border-radius: 100px;
+  left: 150px;
+  top: 150px;
+  width: 5px;
+  height: 5px;
+
+}
+
+.urano {
+  position: absolute;
+  background: "";
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  top: 25%;
+  left: 25%;
+  animation: down 25s forwards infinite linear;
+  margin: 4px 0 0;
+
+}
+
+.urano:before {
+  content: '';
+  background: linear-gradient(to left, #11698e, #16c79a);
+  position: absolute;
+  border-radius: 100px;
+  left: 170px;
+  top: 170px;
+  width: 5px;
+  height: 5px;
+
+}
+
+.neptuno {
+  position: absolute;
+  background: "";
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  top: 25%;
+  left: 25%;
+  animation: down 30s forwards infinite linear;
+  margin: 4px 0 0;
+
+}
+
+.neptuno:before {
+  content: '';
+  background: #1687a7 ;
+  position: absolute;
+  border-radius: 100px;
+  left: 190px;
+  top: 190px;
+  width: 5px;
+  height: 5px;
+
+}
+
+@keyframes plane {
+
+}
+@keyframes zoom {
+  0% { transform: scale(0.1); }
+
+
+  100% { transform: scale(1); }
+
+}
+
+@keyframes up {
+  0%{
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  100%{
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+
+@keyframes down {
+ 0%{
+  transform: translate(-50%, -50%) rotate(0deg);
+}
+100%{
+  transform: translate(-50%, -50%) rotate(360deg);
+}
+}
